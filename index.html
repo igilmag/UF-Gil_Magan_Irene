@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ejercicio HTML y CSS</title>
+</head>
+<body class="container">
+  <form class="formulario">
+    <h1 class="title">Formulario de contacto</h1>
+      <fieldset>
+          <legend class="legend">Hablemos...</legend>
+          <section>
+            <div class="campo"> 
+              <label for="nombre">Nombre</label>
+              <input required placeholder="Su nombre" type="text" required="required" id="nombre" name="nombre">
+          <span>Campo obligatorio</span>
+            </div>
+          </section>
+          <div class="campo"> 
+              <label for="direccion">Dirección</label>
+              <input placeholder="Su dirección" type="text" id="direccion" name="direccion">
+            </div>
+          <div class="campo"> 
+              <label for="correo-electronico">Correo electrónico</label>
+              <input placeholder="Su email" type="text" required="required" id="correo-electronico" name="correo-electronico">
+              <span>Campo obligatorio</span>
+            </div>
+          <div class="campo"> 
+              <label for="asunto">Asunto</label>
+              <input placeholder="Motivo de contacto" type="text" required="required" id="asunto" name="asunto">
+              <span>Campo obligatorio</span>
+            </div>
+          <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea placeholder="Su mensaje" required="required" name="mensaje" id="mensaje" cols="1" rows="10" id="mensaje" name="mensaje"></textarea>
+
+              <span>Campo obligatorio</span>
+            </div>  
+</fieldset>
+<fieldset>
+ 
+          <legend class="legend">Otros datos</legend>
+          <div class="campo">
+              <p>¿Cómo contactó con nosotros?</p>
+  
+              <label for="web">Web
+                  <input type="checkbox" id="web" name="contacto" value="web" checked>
+              </label>
+              <label for="amigos">Amigos
+              <input type="checkbox" id="amigos" name="contacto" value="amigos">
+          </label>
+              <label for="prensa">Prensa
+              <input type="checkbox" id="prensa" name="contacto" value="prensa">
+              </label>
+              <label for="otros">Otros
+              <input type="checkbox" id="otros" name="contacto" value="otros">
+          </label>
+          </div>
+
+          <div class="campo">
+              <p>¿Es usted español?</p>
+              <label>
+                  <input type="radio" id="si" name="espa" value="si" checked>Si
+              </label>
+              <label>
+                  <input type="radio" id="no" name="espa" value="no">No
+              </label>
+              <div class="campo">
+                  <p>Sus intereses</p>
+                  <select id="intereses" multiple name="intereses" size="3">
+                    <option value="deportes">Deportes</option>
+                    <option value="naturaleza">Naturaleza</option>
+                    <option value="informatica">Informática</option>
+                    <option value="cine">Cine</option>
+                  </select><br>
+              </div>
+  </fieldset>
+  <button class="button" type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
+  
+</body>
+</html>
