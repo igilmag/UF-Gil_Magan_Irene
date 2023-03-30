@@ -4,14 +4,15 @@
  
 
  
-  @import {
+  @import 
    url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
-  }
+  
 
 .tittle {
 
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 700;
 }
 
 .formulario {
@@ -37,6 +38,7 @@ input {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 300;
   margin: 2em;
 }
 
@@ -65,7 +67,7 @@ p {
 }
 
 span {
-color: #FF0000; 
+color: red; 
 }
 
  
